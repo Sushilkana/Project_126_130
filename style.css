@@ -1,0 +1,90 @@
+body{
+    background-image:url(canvas_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    width:100%;
+    color:red;
+    text-align: center;
+    background-color:khaki;
+    font-family: 'Rubik Wet Paint', cursive;
+    border:2px solid bisque;
+    border-radius:20%;
+    box-shadow: 10px 10px 10px rgb(183, 255, 0);
+    animation-name:Glow;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+#note{
+    color: black;
+    font-size:20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#button{
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size:30px;
+}
+
+canvas{
+    border:3px solid aquamarine;
+    border-radius:10%;
+    margin-top:-10%;
+    animation-name:Glow;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Glow{
+    10%{
+        box-shadow:10px 10px 10px aquamarine;
+        border:5px 5px 5px cornflowerblue;
+    }
+    20%{
+        box-shadow:10px 10px 10px blue;
+        border:5px 5px 5px orange;
+    }
+    30%{
+        box-shadow:10px 10px 10px greenyellow;
+        border:5px 5px 5px yellow;
+    }
+    40%{
+        box-shadow:10px 10px 10px chartreuse;
+        border:5px 5px 5px violet;
+    }
+
+    50%{
+        box-shadow:10px 10px 10px mediumspringgreen;
+        border:5px 5px 5px purple;
+    }
+
+    60%{
+        box-shadow:10px 10px 10px purple;
+        border:5px 5px 5px mediumspringgreen;
+    }
+
+    70%{
+        box-shadow:10px 10px 10px violet;
+        border:5px 5px 5px chartreuse;
+    }
+
+    80%{
+        box-shadow:10px 10px 10px yellow;
+        border:5px 5px 5px greenyellow;
+    }
+
+    90%{
+        box-shadow:10px 10px 10px orange;
+        border:5px 5px 5px blue;
+    }
+
+    100%{
+        box-shadow:10px 10px 10px cornflowerblue;
+        border:5px 5px 5px aquamarine;
+
+    }
+}
